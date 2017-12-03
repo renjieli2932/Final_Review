@@ -1,7 +1,7 @@
 # Final_Review Questions
 MECS 4602 Final Review
 
-Q1. What are the conditions for a 3x3 matrix to represent a valid rotation in 3D space?
+***Q1. What are the conditions for a 3x3 matrix to represent a valid rotation in 3D space?***
 
 My Answer: 
 
