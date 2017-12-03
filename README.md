@@ -59,8 +59,12 @@ When m < n, matrix always has a non-0 nullspace , dimensionality is at least n-m
 
 ***Q8. How can we tell that a robot arm is in a singular configuration?***
 
+??? Jacobian is rank-defficient 
 
 ***Q9. What are the practical implications of a robot arm being in a singular configuration?***
+
+Practical implication: we change a joint value, the robot arm does not move..
+
 
 ***Q10. How many dimensions does the configuration space of the Kuka LWR arm have?***
 
@@ -86,3 +90,10 @@ Specifically, we want the robot to immediately stop right at the goal point. If 
 ***Q14. What is the advantage of computing a timing function for a trajectory segment using a bang-coast-bang profile, rather than using a polynomial segment?***
 
 With bang-coast-bang profile, we can make the path to be executed as fast as possible(or at least close to that), comparing to a polynomial segment( The velocity and acceleration might be below than what the joint can actually do.)
+
+
+***Q15. What are the advantages of a J-transpose method for Cartesian control as opposed to a J-inverse method?***
+
+1. J-transpose does not require matrix inversion.
+2. It does not require special care around singularities.
+3. It control explicitly regulates end-effector forces that the robot applies. 
