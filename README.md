@@ -22,4 +22,8 @@ When the number of the variables that a rotation matrix contains is big (e.g. a 
 
 My Answer:
 
+The dimensionality of $im(A)$ is equal to the rank of $A$.
 
+the **column rank** of a matrix is equal to the maximum number of linearly independent column vectors.
+the **row rank** of a matrix is equal to the maximum number of linearly independent row vectors.
+column rank = row rank = **rank(A)**
