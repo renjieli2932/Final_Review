@@ -83,3 +83,6 @@ Linear interpolation provides continuous position , but discontinuous velocity a
 Specifically, we want the robot to immediately stop right at the goal point. If the joint trajectory is composed exclusively of straight line segments, it means the acceleration is infinite, which is impossible to execute on real robots.
 
 
+***Q14. What is the advantage of computing a timing function for a trajectory segment using a bang-coast-bang profile, rather than using a polynomial segment?***
+
+With bang-coast-bang profile, we can make the path to be executed as fast as possible(or at least close to that), comparing to a polynomial segment( The velocity and acceleration might be below than what the joint can actually do.)
