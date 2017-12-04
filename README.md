@@ -104,3 +104,30 @@ With bang-coast-bang profile, we can make the path to be executed as fast as pos
 ***Q16. What is the role of the "prediction" and "update" steps during recursive state estimation?***
 
 
+
+***Q17. What are the parameters that define a multivariate normal distribution?***
+
+$$
+f_x(x) = \frac{1}{\sqrt{2 \pi |P|}}e^{- \frac{1}{2} (x - \bar{x})P^{-1}(x - \bar{x})^T}
+$$
+
+where $\bar{x}$ is the mean vector and $P$ is the covariance matrix.
+
+
+***Q18. Under what conditions is the Kalman Filter the optimal method for estimating the state of a system?***
+
+A linear system with white noise. ???
+
+***Q19. How does a Kalman Filter express uncertainty in its estimate of the state?***
+
+It is based on merging the uncertainty of our prediction with the uncertainty of our sensor information. 
+
+***Q20. What is the main difference between a Kalman Filter and an Extended Kalman Filter for state estimation?***
+
+The Kilman Filter applies to linear systems.
+
+Extended Kalman Filter applies to non-linear system.
+
+***Q21. What are the advantages of a particle filter over an Extended Kalman Filter for state estimation?***
+
+
