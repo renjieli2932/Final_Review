@@ -61,9 +61,11 @@ When m < n, matrix always has a non-0 nullspace , dimensionality is at least n-m
 
 ??? Jacobian is rank-defficient 
 
+det(J) = 0
+
 ***Q9. What are the practical implications of a robot arm being in a singular configuration?***
 
-Practical implication: we change a joint value, the robot arm does not move..
+Practical implication: we change a joint value, the end-effector does not move..
 
 
 ***Q10. How many dimensions does the configuration space of the Kuka LWR arm have?***
@@ -97,3 +99,8 @@ With bang-coast-bang profile, we can make the path to be executed as fast as pos
 1. J-transpose does not require matrix inversion.
 2. It does not require special care around singularities.
 3. It control explicitly regulates end-effector forces that the robot applies. 
+
+
+***Q16. What is the role of the "prediction" and "update" steps during recursive state estimation?***
+
+
