@@ -55,7 +55,7 @@ When m < n, matrix always has a non-0 nullspace , dimensionality is at least n-m
 
 ***Q7. If a robot arm is operating in 3D space, what is the smallest number of joints it must have in order to have a redundancy in <ins>any</ins> configuration? Explain why that is the case.***
 
-
+7
 
 ***Q8. How can we tell that a robot arm is in a singular configuration?***
 
@@ -124,10 +124,12 @@ It is based on merging the uncertainty of our prediction with the uncertainty of
 
 ***Q20. What is the main difference between a Kalman Filter and an Extended Kalman Filter for state estimation?***
 
-The Kilman Filter applies to linear systems.
+The Kalman Filter applies to linear systems.
 
 Extended Kalman Filter applies to non-linear system.
 
 ***Q21. What are the advantages of a particle filter over an Extended Kalman Filter for state estimation?***
+
+
 
 
